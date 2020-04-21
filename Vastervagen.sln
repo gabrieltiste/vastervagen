@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vastervagen.Feature.JSONPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiste.Feature.BeautifulResponse", "Vastervagen.Feature.BeautifulResponse\Tiste.Feature.BeautifulResponse.csproj", "{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CD3B257-493A-403C-8FE1-706A5362BEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiste.Feature.BeautifulResponse.Tests", "Tiste.Feature.BeautifulResponse.Tests\Tiste.Feature.BeautifulResponse.Tests.csproj", "{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,16 @@ Global
 		{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC} = {4CD3B257-493A-403C-8FE1-706A5362BEEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6427B546-E8E1-4DF1-AC88-369121D471A9}
