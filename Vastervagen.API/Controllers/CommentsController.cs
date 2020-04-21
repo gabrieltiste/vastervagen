@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Vastervagen.Feature.JSONPlaceholder;
-using Vastervagen.Feature.JSONPlaceholder.Contracts;
-using Vastervagen.Feature.JSONPlaceholder.Models;
+using Tiste.Feature.JSONPlaceholder;
+using Tiste.Feature.JSONPlaceholder.Contracts;
+using Tiste.Feature.JSONPlaceholder.Models;
 
-namespace Vastervagen.API.Controllers
+namespace Tiste.API.Controllers
 {
     [Produces("application/vnd.comments+json")]
     [Route("api/[controller]")]

@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Vastervagen.Feature.JSONPlaceholder;
-using Vastervagen.Feature.JSONPlaceholder.Contracts;
+using Tiste.Feature.JSONPlaceholder;
+using Tiste.Feature.JSONPlaceholder.Contracts;
 
-namespace Vastervagen.API
+namespace Tiste.API
 {
     public class Startup
     {

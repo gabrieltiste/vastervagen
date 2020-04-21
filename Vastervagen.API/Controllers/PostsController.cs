@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Vastervagen.Feature.JSONPlaceholder.Contracts;
-using Vastervagen.Feature.JSONPlaceholder.Models;
+using Tiste.Feature.JSONPlaceholder.Contracts;
+using Tiste.Feature.JSONPlaceholder.Models;
 
-namespace Vastervagen.API.Controllers
+namespace Tiste.API.Controllers
 {
     [Produces("application/vnd.posts+json")]
     [Route("api/[controller]")]

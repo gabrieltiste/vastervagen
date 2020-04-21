@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using Tiste.Feature.BeautifulResponse.Contracts;
 
-namespace Vastervagen.Feature.JSONPlaceholder.Models
+namespace Tiste.Feature.JSONPlaceholder.Models
 {
-    public class Post
+    public class Post : IDataEntity
     {
         public long UserId { get; set; }
         public long Id { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
+        public Dictionary<string, string> Links { get; set; } = new Dictionary<string, string>();
     }
 
 }

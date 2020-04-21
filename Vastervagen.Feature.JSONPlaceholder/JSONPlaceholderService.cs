@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Vastervagen.Feature.JSONPlaceholder.Contracts;
-using Vastervagen.Feature.JSONPlaceholder.Models;
+using Tiste.Feature.JSONPlaceholder.Contracts;
+using Tiste.Feature.JSONPlaceholder.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
 
-namespace Vastervagen.Feature.JSONPlaceholder
+namespace Tiste.Feature.JSONPlaceholder
 {
     public class JSONPlaceholderService : IJSONPlaceholderService
     {

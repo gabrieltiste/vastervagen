@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Vastervagen.API.Controllers
+namespace Tiste.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

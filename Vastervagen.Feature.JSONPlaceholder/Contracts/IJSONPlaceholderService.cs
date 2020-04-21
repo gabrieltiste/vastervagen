@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Vastervagen.Feature.JSONPlaceholder.Models;
+using Tiste.Feature.JSONPlaceholder.Models;
 
-namespace Vastervagen.Feature.JSONPlaceholder.Contracts
+namespace Tiste.Feature.JSONPlaceholder.Contracts
 {
     public interface IJSONPlaceholderService
     {
