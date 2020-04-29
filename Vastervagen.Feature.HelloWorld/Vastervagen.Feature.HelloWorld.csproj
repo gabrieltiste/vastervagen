@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>This is the first Hello World nuget I have created!</Description>
+    <Authors>Gabriel Tiste</Authors>
+    <Company>SEB</Company>
   </PropertyGroup>
 
   <ItemGroup>
