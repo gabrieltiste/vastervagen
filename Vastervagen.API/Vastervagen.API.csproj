@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Vastervagen.Feature.HelloWorld\Vastervagen.Feature.HelloWorld.csproj" />
     <ProjectReference Include="..\Vastervagen.Feature.JSONPlaceholder\Vastervagen.Feature.JSONPlaceholder.csproj" />
   </ItemGroup>
 

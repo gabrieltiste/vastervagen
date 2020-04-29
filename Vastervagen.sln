@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vastervagen.API", "Vasterva
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vastervagen.Feature.JSONPlaceholder", "Vastervagen.Feature.JSONPlaceholder\Vastervagen.Feature.JSONPlaceholder.csproj", "{E06C5D94-1D91-479D-AFE3-794DAA642F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiste.Feature.BeautifulResponse", "Vastervagen.Feature.BeautifulResponse\Tiste.Feature.BeautifulResponse.csproj", "{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiste.Feature.BeautifulResponse", "Vastervagen.Feature.BeautifulResponse\Tiste.Feature.BeautifulResponse.csproj", "{77D6FFEB-A384-4DF9-80D5-D645DCD793B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CD3B257-493A-403C-8FE1-706A5362BEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiste.Feature.BeautifulResponse.Tests", "Tiste.Feature.BeautifulResponse.Tests\Tiste.Feature.BeautifulResponse.Tests.csproj", "{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiste.Feature.BeautifulResponse.Tests", "Tiste.Feature.BeautifulResponse.Tests\Tiste.Feature.BeautifulResponse.Tests.csproj", "{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vastervagen.Feature.HelloWorld", "Vastervagen.Feature.HelloWorld\Vastervagen.Feature.HelloWorld.csproj", "{FAB287D5-0EE4-4BC1-82FF-45DDAA36DBF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B35356D-97E7-44EA-BD29-EE90A7EDD9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB287D5-0EE4-4BC1-82FF-45DDAA36DBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB287D5-0EE4-4BC1-82FF-45DDAA36DBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB287D5-0EE4-4BC1-82FF-45DDAA36DBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB287D5-0EE4-4BC1-82FF-45DDAA36DBF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

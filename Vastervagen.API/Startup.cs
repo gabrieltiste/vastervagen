@@ -6,6 +6,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Tiste.Feature.JSONPlaceholder;
 using Tiste.Feature.JSONPlaceholder.Contracts;
+using Vastervagen.Feature.HelloWorld;
+using Vastervagen.Feature.HelloWorld.Contracts;
 
 namespace Tiste.API
 {
@@ -27,6 +29,9 @@ namespace Tiste.API
             });
 
             services.AddScoped<IJSONPlaceholderService, JSONPlaceholderService>();
+            services.AddScoped<IHelloWorldService, HelloWorldService>();
+
+            services.AddLogging();
 
             services.AddControllers();
         }
